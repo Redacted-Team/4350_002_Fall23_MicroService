@@ -9,6 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// This creates the services for the Logging files.
 builder.Services.AddLogging(builder =>
 {
     builder.AddConsole();

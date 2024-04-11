@@ -7,6 +7,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// This creates the timestamp for the logger.
+builder.Logging.AddSimpleConsole(options =>
+{
+    options.IncludeScopes = true;
+    options.TimestampFormat = "yyyy-MM-dd HH:mm:ss ";
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

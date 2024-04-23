@@ -6,10 +6,10 @@
 #### CSCI 4350
 #### Fall 2023, East Tennessee State University
 
+### This repo is now deprecated! You do not need to clone this, but it is still available for your reference.
+
 ### Overview:
 This is a microservice that returns game info in JSON format to the [[Redacted] Project](https://github.com/Redacted-Team/4350_002_Fall23_BucStop).
-
-### This repo is now deprecated! You do not need to clone this, but it is still available for your reference.
 
 ### Project Structure:
 * The application handles HTTP calls in the microController.cs file in the /GameMicroServer/Controllers directory.
